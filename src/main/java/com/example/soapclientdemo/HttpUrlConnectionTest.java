@@ -102,8 +102,11 @@ public class HttpUrlConnectionTest {
     }
 
     /**
+     * <pre>
      * raw XML string to a pretty-formatted string
      * (standard Java API)
+     * https://www.baeldung.com/java-pretty-print-xml
+     * </pre>
      * @param xmlString xml 문자열
      * @param indent indent-size
      * @param ignoreDeclaration suppressing XML declaration
@@ -140,8 +143,11 @@ public class HttpUrlConnectionTest {
     }
 
     /**
+     * <pre>
      * raw XML string to a pretty-formatted string
      * (using an external library)
+     * https://www.baeldung.com/java-pretty-print-xml
+     * </pre>
      * @param xmlString xml 문자열
      * @param indent indent-size
      * @param skipDeclaration suppressing XML declaration
